@@ -1,1 +1,1 @@
-alx-low_level_programming
+variable n that stored positive or negative
