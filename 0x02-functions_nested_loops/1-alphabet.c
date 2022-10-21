@@ -1,6 +1,4 @@
-#include <sdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
  * print_alphabet - a fuction that prints the alphabet, in lowercase
