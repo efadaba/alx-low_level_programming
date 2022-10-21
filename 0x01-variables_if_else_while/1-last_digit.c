@@ -12,7 +12,7 @@ int main(void)
 {
 int n;
 
-srand(time(0))
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 
@@ -29,7 +29,7 @@ printf("last digit of %d is %d is zero\n", n, n % 10);
 else
 
 {
-printf("last digit of %d is %d less than 6 not 0\n", n, n % 10)
+printf("last digit of %d is %d less than 6 not 0\n", n, n % 10);
 }
 
 return (0);
