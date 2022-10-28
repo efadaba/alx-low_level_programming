@@ -6,23 +6,24 @@
  */
 int main(void)
 {
-int inc;
-unsigned long n1 = 0, n2 = 1, n3;
-for (inc = 0; inc < 50; inc++)
-{
-n3 = n1 + n2;
-printf("%lu", n3);
-n1 = n2;
-n2 = n3;
+int i = 0;
+long j = 1, k = 2;
 
-if (inc == 49)
-printf("\n");
+while (i < 50)
+{
+if (i == 0)
+printf("%ld", j);
+else if (i == 1)
+printf(", %ld", k);
 else
 {
-printf(", ");
-
+k += j;
+j = k - j;
+printf(", %ld", k);
+}
+++i;
 }
 
+printf("\n");
 return (0);
-
 }
